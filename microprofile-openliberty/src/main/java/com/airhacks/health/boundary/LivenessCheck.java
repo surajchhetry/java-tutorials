@@ -10,7 +10,7 @@ public class LivenessCheck implements HealthCheck {
     @Override
     public HealthCheckResponse call() {
         return HealthCheckResponse.
-                named("ping").
+                named("ping ").
                 up().
                 withData("duke", "lives").
                 build();
